@@ -44,8 +44,9 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             constraints[constr['type']].append(constr['target'])
 
     output_dict = []
-
-    # print(template['text'])
+    print("Template: ", template["template_id"], " ", template["task_id"])
+    print("this is the templete text content")
+    print(template['text'])
     # First check some constraints for scene requirements
     if "SCENE_UNIQUE" in constraints.keys():
         scene_unique = Constraints.check_scene_unique(
@@ -86,8 +87,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             return output_dict
         object_combinations = generate_object_combinations(
             scene_struct, len(parameters['object']))
-
-    # print(object_combinations)
+    print("combination of scene settings:")
+    print(object_combinations)
 
     # First UNIQUE and NON_UNIQUE generation
     unq_descriptors, non_unq_descriptors = Constraints.unique(
@@ -95,9 +96,9 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         return_uniques=("UNIQUE" in constraints.keys()),
         return_non_uniques=("NON_UNIQUE" in constraints.keys())
     )
-
-    # print(unq_descriptors)
-    # print(non_unq_descriptors)
+    print("unique and non-unique descriptors")
+    print(unq_descriptors)
+    print(non_unq_descriptors)
 
     # UNIQUE, NON_UNIQUE filtering
     # Filter object combinations based on constraints
@@ -111,7 +112,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         )
         if not validate_combinations(object_combinations, verbose):
             return output_dict
-    # print(object_combinations)
+    print("object combinations after unique filtering")
+    print(object_combinations)
 
     if "NON_UNIQUE" in constraints.keys():
         object_combinations = Constraints.resolve_uniqueness(
@@ -122,7 +124,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         )
         if not validate_combinations(object_combinations, verbose):
             return output_dict
-    # print(object_combinations)
+    print("object combinations after non-unique filtering")
+    print(object_combinations)
 
     all_unq = []
     is_targets_unq = []
@@ -146,8 +149,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         )
         if not validate_combinations(object_combinations, verbose):
             return output_dict
-
-    # print(object_combinations)
+    print("object combinations after IS filtering")
+    print(object_combinations)
 
     # Resolve IS_NOT
     if 'IS_NOT' in constraints.keys():
@@ -157,8 +160,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             constraints['IS_NOT'],
             parameters['object'] if 'object' in parameters else None,
         )
-
-    # print(object_combinations)
+    print("object combinations after IS_NOT filtering")
+    print(object_combinations)
 
     # Resolve IN
     if 'IN' in constraints.keys():
@@ -168,8 +171,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             constraints['IN'],
             parameters['object'] if 'object' in parameters else None,
         )
-
-    # print(object_combinations)
+    print("object combinations after IN filtering")
+    print(object_combinations)
     # Multiply non_unique descriptors for each object <> token
     # Cause IS for NON_UNIQUES may resolve different descriptors
     # for different tokens
@@ -189,8 +192,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         non_unq_descriptors = (
             [copy.deepcopy(non_unq_descriptors)
              for i in range(len(nunq_tags))])
-
-    # print(is_targets_nunq)
+    print("non-unique descriptors")
+    print(is_targets_nunq)
 
     # Resolve IS for set
     if len(is_targets_nunq) > 0:
@@ -205,7 +208,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         )
         if not validate_combinations(object_combinations, verbose):
             return output_dict
-    # print(object_combinations, non_unq_descriptors)
+    print("object combinations after IS for set filtering")
+    print(object_combinations, non_unq_descriptors)
 
     # Resolve CONTAIN
     if nunq_tags is not None and len(nunq_tags) > 0:
@@ -233,15 +237,16 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         )
         if not validate_combinations(object_combinations, verbose):
             return output_dict
-
-    # print(relation_descriptors)
+    print("object combinations after RELATION_UNIQUE filtering")
+    print(relation_descriptors)
 
     table_parts_tags = parameters['table_part'] if 'table_part' in parameters else None
     table_parts = get_table_parts()
     table_parts_descriptors = None
     if table_parts_tags is not None:
         table_parts_descriptors = [copy.deepcopy(table_parts) for i in range(len(table_parts_tags))]
-    # print(table_parts_descriptors)
+    print("table parts descriptors")
+    print(table_parts_descriptors)
 
 
     if "NOT_TP" in constraints.keys():
@@ -256,9 +261,9 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             table_parts_tags,
             table_parts_descriptors
         )
-
-    # print(constraints)
-    # print(table_parts_descriptors)
+    print("table parts descriptors after NOT_TP filtering")
+    print(constraints)
+    print(table_parts_descriptors)
 
     if "TP_SET" in constraints.keys():
         table_parts_descriptors = Constraints.resolve_tp_set(
@@ -267,8 +272,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             table_parts_tags,
             table_parts_descriptors
         )
-
-    # print(table_parts_descriptors)
+    print("table parts descriptors after TP_SET filtering")
+    print(table_parts_descriptors)
 
     if "NOT_TP_SET" in constraints.keys():
         table_parts_descriptors = Constraints.resolve_not_tp_set(
@@ -285,13 +290,18 @@ def generate_instruction_from_template(scene_struct, template, metadata,
             table_parts_tags,
             table_parts_descriptors
         )
+    print("table parts descriptors after TP_NOT_EMPTY filtering")
+    print(table_parts_descriptors)
 
-    # print(table_parts_descriptors)
-
-    # print(object_combinations)
-    # print(relation_descriptors)
-    # print(table_parts_descriptors)
-    # print(non_unq_descriptors)
+    print("Final descriptors")
+    print("Object combinations: ")
+    print(object_combinations)
+    print("Unique descriptors: ")
+    print(relation_descriptors)
+    print("Table parts descriptors: ")
+    print(table_parts_descriptors)
+    print("Non-unique descriptors: ")
+    print(non_unq_descriptors)
 
     # Final rejections
     # based on: object_combinations, unq_descriptors, non_unq_descriptors,
@@ -309,8 +319,8 @@ def generate_instruction_from_template(scene_struct, template, metadata,
         nunq_tags,
         table_parts_tags
     )
-
-    # print(parameters)
+    print("parameters")
+    print(parameters)
     if 'weight_specifier' in parameters:
         if combinations_dict is not None:
             for v in combinations_dict.values():
@@ -324,7 +334,9 @@ def generate_instruction_from_template(scene_struct, template, metadata,
                 for tp in parameters['table_part']:
                     if tp not in v:
                         v[tp] = get_table_parts()
-    # print(combinations_dict)
+                        
+    print("combinations_dict")
+    print(combinations_dict)
     # print(combinations_dict[list(combinations_dict.keys())[0]])
 
     if combinations_dict is None:

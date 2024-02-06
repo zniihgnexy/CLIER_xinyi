@@ -1,0 +1,325 @@
+{
+  "split": "train",
+  "image_index": 7,
+  "image_filename": "NS_AP_train_000007.png",
+  "objects": [
+    {
+      "file": "wine_glass2",
+      "name": "wine glass",
+      "shape": "irregularly shaped",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.6272203922271729,
+        -0.13559991121292114,
+        0.0
+      ],
+      "orientation": [
+        0.51050865650177,
+        0.0,
+        0.0,
+        0.8598726391792297
+      ],
+      "rotation": 118.60456549584609,
+      "pixel_coords": [
+        419,
+        415,
+        0.5454868674278259
+      ],
+      "colour": "transparent",
+      "weight_gt": 104.3,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.028535010293126106,
+        "y": 0.028535008430480957,
+        "z": 0.12869469821453094
+      },
+      "scale_factor": 0.6,
+      "stackable": false,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "bgl5c0Q>b0A=D:WEXNR8n1kGTNT8n1iGTNV8n1hGRNW8Q2fGQNY8Q2eGoM[8S2cGmM]8U2aGkM_8X2]GjMb8Y2[GgMe8_2TGbMl8g2fF^MZ9T400000^NeF_M[9W2UGcMk8X2[GgMe8U2_GjMb8T2`GlM`8Q2dGnM\\8Q2eGoM[8o1gGQNZ8l1iGRNX8l1jGTNV8j1mGTNZ8d1iGZN`8[1dGcNf8Q1S3\\ObYQ6"
+      }
+    },
+    {
+      "file": "glass4",
+      "name": "glass",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.31459739804267883,
+        -0.19414816796779633,
+        0.0
+      ],
+      "orientation": [
+        0.5211989283561707,
+        0.0,
+        0.0,
+        0.853435218334198
+      ],
+      "rotation": 117.17458364451832,
+      "pixel_coords": [
+        375,
+        324,
+        0.8547181487083435
+      ],
+      "colour": "transparent",
+      "weight_gt": 66.4,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.04990667477250099,
+        "y": 0.049906663596630096,
+        "z": 0.05471999570727348
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "\\UW54c>a0E6K4M3N2M3N1O1O1O000O2O00000000000000000000O1000001N100O1O1N3M3M4L6Io^e6"
+      }
+    },
+    {
+      "file": "glass2",
+      "name": "glass",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.5088716745376587,
+        -0.2981111407279968,
+        0.0
+      ],
+      "orientation": [
+        0.09501581639051437,
+        0.0,
+        0.0,
+        0.9954757690429688
+      ],
+      "rotation": 169.09554169456342,
+      "pixel_coords": [
+        267,
+        372,
+        0.66012042760849
+      ],
+      "colour": "transparent",
+      "weight_gt": 72.6,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.048578549176454544,
+        "y": 0.048578549176454544,
+        "z": 0.1170000433921814
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "XWa312W1c=<F6K5K5PDSNb:T2SERNl:X2dDoM[;l2O1O0O101O00000000001O000O100000000000O1000000000000O101O000O10000O101N1QO`D^Ne;P1REeNW;k0UEoNX;>TE]OoaV8"
+      }
+    },
+    {
+      "file": "chopping_board1",
+      "name": "chopping board",
+      "shape": "cuboid",
+      "size": "medium-sized",
+      "material": "wooden",
+      "3d_coords": [
+        0.3745417594909668,
+        0.07292155921459198,
+        0.0
+      ],
+      "orientation": [
+        0.8644739389419556,
+        0.0,
+        0.0,
+        0.5026776790618896
+      ],
+      "rotation": 60.35462243256927,
+      "pixel_coords": [
+        576,
+        335,
+        0.7998558878898621
+      ],
+      "colour": "brown",
+      "weight_gt": 542.1,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.1345514953136444,
+        "y": 0.1345515102148056,
+        "z": 0.009472114965319633
+      },
+      "scale_factor": 0.45,
+      "stackable": false,
+      "stack_base": true,
+      "pickupable": false,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "\\Z`78h>1N1O2O0O1O101N1O100O1O100O2N100O1O100O1O2O0O1O100O1O2O0O10000000001O0000000000001O0001O00000001O000001O000001O0000000001O01O0000000000010O0000000000001O01O0000000001O0001O000001O0000000001O01O000000000001O00000O10000N2O1O2M2O1O1N2O1O1N2O2N1N2O1N3N2NlSR3"
+      }
+    }
+  ],
+  "directions": {
+    "behind": [
+      -0.9998477697372437,
+      0.017452329397201538,
+      0.0
+    ],
+    "front": [
+      0.9998477697372437,
+      -0.017452329397201538,
+      -0.0
+    ],
+    "left": [
+      -0.017452297732234,
+      -0.9998476505279541,
+      0.0
+    ],
+    "right": [
+      0.017452297732234,
+      0.9998476505279541,
+      -0.0
+    ],
+    "above": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "below": [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  },
+  "camera_params": {
+    "position": [
+      1.1496347188949585,
+      -0.1398545801639557,
+      0.22131800651550293
+    ],
+    "rotation": [
+      83.00000117132056,
+      0.0,
+      89.00000133828577
+    ],
+    "rotation_mode": "EulerXYZ"
+  },
+  "lamp_params": {
+    "Lamp_Key": [
+      3.2620930671691895,
+      -2.1151952743530273,
+      2.1939539909362793
+    ],
+    "Lamp_Back": [
+      -1.8424164056777954,
+      2.017106056213379,
+      2.2714035511016846
+    ],
+    "Lamp_Fill": [
+      -2.3589823246002197,
+      -2.9644391536712646,
+      2.5376229286193848
+    ]
+  },
+  "table": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O14L5WLlE\\2Z:YMlEf2^:jLiEU3R;O1O00001O00000000001O0000000000000000O1000000000000O1000000O10000O100O1QOfLXFZ3[9]MZFd2^9hM\\FZ2]8fLQH\\1]Oo1a8h200O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1000000O1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\\JlG\\4T8[K]H]4c7`KcH]4]7aKgH]4Y7bKjH\\4V7dKlHZ4T7eKoHY4Q7gKPIX4P7hKQIW4o6iKRIV4n6jKRIV4n6jKRIV4n6iKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKTIV4l6jKSIW4m6iKSIW4m6iKSIW4m6iKSIW4m6jKQIW4o6iKQIW4o6iKPIX4P7hKoHY4Q7gKmH[4S7fKjH\\4V7eKgH]4Y7eKcH]4]7gK\\H\\4d7`10000000000000000000bJ[Ha3e7SLmHg3S7PLZIl3f6lKdIP2XNAT8[NjIQ2TNCR8\\NlIn1TNEP8]NnIl1RNGP8\\NQJj1QNIn7]NSJh1oMKn7]NUJf1mMMn7]NWJd1kMOn7]NZJ`1jM2l7^N]J]1gM5l7^NcJV1bM<k7^NlJh0^Mj0f7^N^Lb1b3^N^Lb1b3^N^Lb1b3^NlJg0_Mk0e7^NbJW1cM;k7^N]J]1gM5l7^NYJa1jM2m7]NWJc1lM0m7]NTJg1nMLn7]NSJh1oMKn7]NQJj1QNIn7^NnIl1RNGP8]NlIn1TNEP8]NjIQ2TNCR8bNbIn1ZNAT8iNWIj1cN^OV8QOkHe3U7hLWH_3i7l1000gIkGg5U8VJnGj5R8UJoGk5Q8TJQHk5o7TJRHl5n7SJSHm5m7QJUHo5k7PJVHP6j7oIWHQ6k7lIVHT6[801O00000000001O0000001O00000000001O00000000000000001O00000000000000000000000000000000000000000000000000000000000000000000O10000000\\KYGo2g8QMZGn2f8QM[Go2d8QM^Gn2b8RM^Gn2b8QM_Go2a8PM`GP3`8PMaGo2^8QMcGo2]8PMdGP3\\8PMdGP3[8PMfGP3Z8oLgGQ3Y8oLgGQ3X8oLjGP3c7oKTHP1:Q3b7QLRHn0<Q3b7RLQHl0>R3a7RLQHk0?S3`7SLPHj0`0S3`7SLPHi0a0T3_7TLnGh0e0S3]7ULnGh0e0S3]7VLmGf0g0T3\\7]MeHc2[7]MeHc2[7\\MfHd2Z7[MhHd2X7\\MhHd2X7[MiHe2W7[MiHe2W7[MiHe2W7[MiHe2W7[MiHe2W7[MjHd2V7\\MjHd2V7\\MjHd2V7\\MjHd2V7\\MjHd2V7\\MjHd2V7\\MjHd2V7\\MkHc2U7]MkHc2U7]MkHc2U7^MjHb2V7^MjHb2V7^MjHb2V7^MjHb2V7^MkHa2U7_MkHa2T7`MlH`2T7`MlH`2T7aMkH_2U7aMkH_2U7aMkH_2U7aMlH^2T7bMlH^2T7bMlH^2T7bMlH^2T7bMlH^2T7bMlH^2T7cMkH]2U7cMlH\\2T7dMlH\\2T7dMlH\\2T7dMlH\\2T7dMlH\\2T7dMlH\\2T7dMlH\\2T7eMlHZ2T7fMlHZ2T7fMlHZ2T7fMlHZ2T7fMlHZ2T7fMlHZ2T7fMlHZ2T7fMmHY2S7gMmHY2S7hMlHX2T7hMlHX2T7hMlHX2T7hMlHX2T7hMlHX2T7hMmHW2S7iMmHW2S7iMmHW2S7jMlHV2T7jMlHV2T7jMlHV2T7jMmHU2S7kMmHU2S7kMmHU2S7kMmHU2S7kMmHU2S7kMmHU2S7lMlHT2T7lMmHS2S7mMmHS2S7mMmHS2S7mMmHS2S7mMmHS2S7mMmHS2S7mMmHS2S7nMlHR2T7nMlHR2T7nMlHR2T7nMkHS2U7mMkHS2U7mMkHS2U7mMiHU2W7kMhHV2X7jMgHW2Y7jMdHX2\\7hMcHY2]7gMbHZ2^7fM`H\\2`7dM_H]2a7cM^H^2b7bM\\H`2d7`M[Ha2e7`MYHa2g7_MWHc2i7]MVHd2j7\\MTHf2l7[MRHf2n7[MPHf2P8U2000000000000000000001O00000000001O001O00001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+    }
+  },
+  "robot": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1fK[NX4g1fKZNZ4g1dKZN\\4g1aK[N_4f1lJSNQM8S8g1fJVNUM4T8h1dJWNnLI09^8h1cJVNoL:^8b1_JPO`5R1[JQOe5Q1XJPOh5R1TJPOk5S1RJnNn5T1oImNQ6V1kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+    }
+  },
+  "relationships": {
+    "behind": [
+      [
+        1,
+        2,
+        3
+      ],
+      [],
+      [
+        1,
+        3
+      ],
+      [
+        1
+      ]
+    ],
+    "front": [
+      [],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "left": [
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ],
+      [],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "right": [
+      [
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      []
+    ]
+  }
+}

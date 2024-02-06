@@ -1,0 +1,325 @@
+{
+  "split": "train",
+  "image_index": 5,
+  "image_filename": "NS_AP_train_000005.png",
+  "objects": [
+    {
+      "file": "mug1",
+      "name": "mug",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "ceramic",
+      "3d_coords": [
+        0.3409135341644287,
+        0.0847494900226593,
+        0.0
+      ],
+      "orientation": [
+        0.15766394138336182,
+        0.0,
+        0.0,
+        0.9874927997589111
+      ],
+      "rotation": 161.85733928761994,
+      "pixel_coords": [
+        578,
+        329,
+        0.8334332704544067
+      ],
+      "colour": "blue",
+      "weight_gt": 85.5,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.07978849858045578,
+        "y": 0.05636414512991905,
+        "z": 0.06983542442321777
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "RlU83i=V1C<O001N101O0000001O000O1000001O000000000001O000000000000000000001O000O10001O0O101M2YORRc3"
+      }
+    },
+    {
+      "file": "glass5",
+      "name": "glass",
+      "shape": "cuboid",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.48494285345077515,
+        -0.024121707305312157,
+        0.0
+      ],
+      "orientation": [
+        0.34525012969970703,
+        0.0,
+        0.0,
+        0.9385107159614563
+      ],
+      "rotation": 139.60586789420532,
+      "pixel_coords": [
+        516,
+        363,
+        0.6886134147644043
+      ],
+      "colour": "transparent",
+      "weight_gt": 60.1,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.06595516204833984,
+        "y": 0.06595516204833984,
+        "z": 0.053819961845874786
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "kQU7a0^>o0RO3L101O0O2O0000001N1000001O0000001O000O101O0000001O0001O000001O00000000O1000001N10000O1O101N100O101N100O2N1J7D;F;E]i\\4"
+      }
+    },
+    {
+      "file": "thermos1",
+      "name": "thermos",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "metal",
+      "3d_coords": [
+        0.5815130472183228,
+        -0.09304172545671463,
+        0.0
+      ],
+      "orientation": [
+        0.2315104454755783,
+        0.0,
+        0.0,
+        0.972832441329956
+      ],
+      "rotation": 153.22797263518137,
+      "pixel_coords": [
+        462,
+        395,
+        0.591583788394928
+      ],
+      "colour": "purple",
+      "weight_gt": 245.7,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.04412815719842911,
+        "y": 0.043886326253414154,
+        "z": 0.1470000147819519
+      },
+      "scale_factor": 0.6,
+      "stackable": false,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "Q`^6[4b:4M3M3N1O2N1O2N101N1000001N100000000000000000000000000000000001O0O1000001N2O1O0O3M2O1N3L4ZNj1[MPDOj\\Y5"
+      }
+    },
+    {
+      "file": "mug1",
+      "name": "mug",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "ceramic",
+      "3d_coords": [
+        0.6958875060081482,
+        -0.20318900048732758,
+        0.0
+      ],
+      "orientation": [
+        0.9551628828048706,
+        0.0,
+        0.0,
+        0.29608091711997986
+      ],
+      "rotation": 34.44472935366405,
+      "pixel_coords": [
+        332,
+        451,
+        0.4761711359024048
+      ],
+      "colour": "cyan",
+      "weight_gt": 86.5,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.07978849858045578,
+        "y": 0.05636414512991905,
+        "z": 0.06983542442321777
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "cb[46g>Y1iNW1iN:F3N1N2N2O1O0O2O1N10001N101O000O101O000O10001O0000000O100000000000000000000000000000O10000000000O1000000O101O0O10000O2O0O100O2O0O101N1O2O0O2N2N2Ml0TOkim6"
+      }
+    }
+  ],
+  "directions": {
+    "behind": [
+      -0.9998477697372437,
+      0.017452329397201538,
+      0.0
+    ],
+    "front": [
+      0.9998477697372437,
+      -0.017452329397201538,
+      -0.0
+    ],
+    "left": [
+      -0.017452297732234,
+      -0.9998476505279541,
+      0.0
+    ],
+    "right": [
+      0.017452297732234,
+      0.9998476505279541,
+      -0.0
+    ],
+    "above": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "below": [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  },
+  "camera_params": {
+    "position": [
+      1.1496347188949585,
+      -0.1398545801639557,
+      0.22131800651550293
+    ],
+    "rotation": [
+      83.00000117132056,
+      0.0,
+      89.00000133828577
+    ],
+    "rotation_mode": "EulerXYZ"
+  },
+  "lamp_params": {
+    "Lamp_Key": [
+      3.297828197479248,
+      -2.0694985389709473,
+      2.202519416809082
+    ],
+    "Lamp_Back": [
+      -1.8274927139282227,
+      2.009617567062378,
+      2.2896835803985596
+    ],
+    "Lamp_Fill": [
+      -2.385228157043457,
+      -3.04538893699646,
+      2.5609641075134277
+    ]
+  },
+  "table": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1OdLfG4Y8JPIPOo6P1XJjMg5V2cJaM]5^2fJ`MY5a2hJ^MW5b2kJ]MT5c2nJ\\MQ5e2PKZMP5f2PKZMP5e2RKZMn4f2SKYMl4g2UKYMk4g2UKYMk4g2VKXMj4g2WKYMi4g2XKXMh4h2XKXMh4h2XKXMh4g2YKYMg4g2ZKXMf4h2ZKXMf4h2ZKXMf4g2[KYMe4g2[KYMe4g2\\KXMd4h2\\KXMd4h2\\KXMd4h2\\KXMd4h2\\KXMd4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2]KYMc4g2\\KZMd4f2\\KZMd4f2\\KZMd4f2\\KZMd4f2\\KZMd4f2\\KZMd4f2[K[Me4e2[K[Me4e2[K[Me4e2[K[Me4e2ZK\\Mf4d2ZK\\Mf4e2YK[Mg4e2XK\\Mh4d2XK\\Mh4d2XK\\Mh4d2WK]Mi4d2VK\\Mj4d2UK]Mk4c2UK]Mk4c2TK^Ml4c2SK]Mm4c2RK^Mn4b2RK^Mn4c2PK^MP5b2oJ_MQ5b2nJ^MR5b2mJ_MS5b2kJ_MU5b2iJ_MW5b2fJ`MZ5Z3jIhLV6Q600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000gIkGg5U8VJnGj5R8UJoGk5U<^L1O1O1O001O001O001O0000001O00000000000000000000000000000000000000O1000000O10000O1O100O1N2\\Nd1XNh1000kJaGi3_8VL`Hl2`7TMcHi2]7VMdHj2\\7VMeHi2[7WMeHi2[7VMgHi2Y7WMgHi2Y7WMgHi2Y7WMgHi2Y7WMhHh2X7WMiHi2W7WMiHi2W7WMiHi2W7WMjHh2V7XMjHh2V7XMjHh2V7XMjHh2V7XMkHg2U7YMkHg2T7ZMlHf2T7YMmHg2S7YMnHf2R7ZMnHf2R7ZMnHf2R7ZMnHf2R7ZMoHe2P7\\MPId2P7\\MPId2P7]MoHc2Q7]MoHc2Q7]MoHc2P7^MQIa2o6_MQIa2o6_MQIa2n6`MRI`2n6`MRI`2n6`MQIa2n6`MRI`2[6kLTHe0a1`2[6mLRHc0c1`2[6nLQHc0b1`2]6mLQHc0b1`2]6nLPHb0c1`2]6nLPHb0b1a2^6nLnGb0c1a2_6mLnGb0c1a2_6nLmGb0b1a2a6QN_Io1a6QN^IP2b6PN^IP2b6QN\\IP2d6PN\\IP2d6PN[IQ2e6PNYIQ2g6oMSIW2m6jMgHa2Y7_M]Hk2c7VMRHT3n7o1000000000000000000000RKkGQ3U8kKQIS4o6bK]I]4c6cK]I]4b6dK_I[4a6dK`I\\4`6dKaI[4_6eKaI[4_6eKaI[4_6eKaI[4_6eKbIZ4^6fKbIZ4^6fKbIZ4^6eKcI[4]6eKcI[4]6eKcI[4]6eKdIZ4\\6fKdIZ4\\6fKdIZ4\\6fKdIZ4\\6fKdIZ4\\6fKdIZ4\\6fKdIZ4\\6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6gKcIY4]6hKbIX4^6hKbIX4^6hKaIY4_6gKaIY4_6gKaIY4_6hK`IX4`6hK_IY4a6gK_IY4a6hK\\IZ4d6fKeHQ5[7Z1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001O00000000001O001O00001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+    }
+  },
+  "robot": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1_42O1O1O1O2YFmM\\6U2aIlM`6U2_IjMb6X2ZIiMg6Y2TIjMl6X2QIhMP7Z2lHhMS7[2jHfMV7\\2gHeMY7^2cHbM^7b2]H_Mc7f2VH\\Mj7m2iGWMW8i4aNRKlHn4Z6PLbIP4^6RL`In3`6SL_Im3a6TL^Il3b6UL]Ik3c6UL]Ik3c6UL]Ik3c6VL\\Ij3d6VL\\Ij3d6WL[Ii3e6XLZIh3f6XLZIh3f6YLYIh3f6YLYIg3g6YLYIg3g6ZLXIf3h6ZLXIf3h6[LWIf3h6ZLXIg3g6ZLXIg3g6YLYIg3g6ZLXIh3f6XLZIi3e6XLZIi3e6WL[Ik3c6VL\\I9C^1o6ZN]I2Ik1MeLOJm5d1^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+    }
+  },
+  "relationships": {
+    "behind": [
+      [],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "front": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3
+      ],
+      []
+    ],
+    "left": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3
+      ],
+      []
+    ],
+    "right": [
+      [],
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ]
+  }
+}

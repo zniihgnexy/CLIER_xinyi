@@ -1,0 +1,325 @@
+{
+  "split": "train",
+  "image_index": 0,
+  "image_filename": "NS_AP_train_000000.png",
+  "objects": [
+    {
+      "file": "glass1",
+      "name": "glass",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.6826423406600952,
+        -0.11287510395050049,
+        0.0
+      ],
+      "orientation": [
+        0.7982529997825623,
+        0.0,
+        0.0,
+        0.6023222804069519
+      ],
+      "rotation": 74.07280319850157,
+      "pixel_coords": [
+        447,
+        443,
+        0.49088001251220703
+      ],
+      "colour": "transparent",
+      "weight_gt": 82.4,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.05443980172276497,
+        "y": 0.05444520711898804,
+        "z": 0.09000000357627869
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "]mQ67h>e0[O;Ea0@a0^Ob0_O`0_O7J1O1N2O2N3M0O2O000000001O0O101O001O001O00000000000000O1000000000000000000000010O0O1O1O100O1O2O000O101O0O101B=A?A`0@?B?J5K6F;_OQiZ5"
+      }
+    },
+    {
+      "file": "food_box2",
+      "name": "food box",
+      "shape": "cylindrical",
+      "size": "small",
+      "material": "plastic",
+      "3d_coords": [
+        0.3808149993419647,
+        -0.2116156965494156,
+        0.0
+      ],
+      "orientation": [
+        0.09942582994699478,
+        0.0,
+        0.0,
+        0.9950449466705322
+      ],
+      "rotation": 168.5877783753538,
+      "pixel_coords": [
+        358,
+        338,
+        0.7887015342712402
+      ],
+      "colour": "green",
+      "weight_gt": 152.5,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.0773765817284584,
+        "y": 0.07820996642112732,
+        "z": 0.04725002497434616
+      },
+      "scale_factor": 0.45,
+      "stackable": false,
+      "stack_base": true,
+      "pickupable": false,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "bSi48f>3M2O5L7H8I6I3N1O0O101O00001N10000000001O00000O10000000000000000000000000O100000001O000O1000000O101O0O100O2N1M3G:F:K6M3M`ig6"
+      }
+    },
+    {
+      "file": "soda_can",
+      "name": "soda can",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "metal",
+      "3d_coords": [
+        0.6287022233009338,
+        -0.27726230025291443,
+        0.0
+      ],
+      "orientation": [
+        0.9135391116142273,
+        0.0,
+        0.0,
+        0.40675094723701477
+      ],
+      "rotation": 48.00179424915162,
+      "pixel_coords": [
+        259,
+        417,
+        0.5415623784065247
+      ],
+      "colour": "green",
+      "weight_gt": 114.8,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.04757760092616081,
+        "y": 0.04747440293431282,
+        "z": 0.0828000009059906
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "dgZ33j>l0UOk0UOf0WObMfCb2V<6N2N2O1O0O2O1O1N2O001O0O10001O0000000O10000000000000000000O100000000O1000000O2O0O100O2O0O1O2N6I4N1N3M3Lk0VOT1kNgQW8"
+      }
+    },
+    {
+      "file": "plate1",
+      "name": "plate",
+      "shape": "flat",
+      "size": "medium-sized",
+      "material": "ceramic",
+      "3d_coords": [
+        0.3335762321949005,
+        -0.027121493592858315,
+        0.0
+      ],
+      "orientation": [
+        0.7762023210525513,
+        0.0,
+        0.0,
+        0.6304839253425598
+      ],
+      "rotation": 78.17166304630197,
+      "pixel_coords": [
+        496,
+        328,
+        0.8387768864631653
+      ],
+      "colour": "white",
+      "weight_gt": 296.6,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.14660699665546417,
+        "y": 0.14660699665546417,
+        "z": 0.014737199991941452
+      },
+      "scale_factor": 0.6,
+      "stackable": false,
+      "stack_base": true,
+      "pickupable": false,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "l__62m>3M2N2N101N2O0O2O000O1000000O1000001N1000000000001N1000001O00001O00001O0O2O001O2N2N00001O0000000000000000000000000001O00000000000000000000000O2O00000000000O2O00000O10001N100O10001N10001N10000O2O0O2O0O101N101N2O0O3M2MSmZ4"
+      }
+    }
+  ],
+  "directions": {
+    "behind": [
+      -0.9998477697372437,
+      0.017452329397201538,
+      0.0
+    ],
+    "front": [
+      0.9998477697372437,
+      -0.017452329397201538,
+      -0.0
+    ],
+    "left": [
+      -0.017452297732234,
+      -0.9998476505279541,
+      0.0
+    ],
+    "right": [
+      0.017452297732234,
+      0.9998476505279541,
+      -0.0
+    ],
+    "above": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "below": [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  },
+  "camera_params": {
+    "position": [
+      1.1496347188949585,
+      -0.1398545801639557,
+      0.22131800651550293
+    ],
+    "rotation": [
+      83.00000117132056,
+      0.0,
+      89.00000133828577
+    ],
+    "rotation_mode": "EulerXYZ"
+  },
+  "lamp_params": {
+    "Lamp_Key": [
+      3.218255043029785,
+      -2.123660087585449,
+      2.1377382278442383
+    ],
+    "Lamp_Back": [
+      -1.879201889038086,
+      1.9869574308395386,
+      2.2631421089172363
+    ],
+    "Lamp_Fill": [
+      -2.368190288543701,
+      -3.0078678131103516,
+      2.522517442703247
+    ]
+  },
+  "table": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1OeKbEV4]:hK_F_3Z;WOd0\\O2N1O1O1O1O001O1O1O1O001O0000hLYNWIg1h6ZNYIe1f6\\NZId1e6]N[Ic1e6]N[Ic1d6^N\\Ib1c6^N^Ib1a6_N_Ia1`6`N`I`1_6aNaI_1^6bNbI^1]6cNcI]1\\6dNdI\\1[6eNeI[1Z6fNfIZ1Y6gNgIY1X6hNgIY1Y6gNgIY1X6hNhIX1W6iNiIW1V6jNjIV1U6kNjIV1U6kNkIU1T6lNlIT1S6mNmIS1R6nNmIS1R6oNmIQ1R6POmIQ1R6POnIP1Q6QOnIP1Q6ROnIn0R6ROmIo0R6ROmIo0R6SOlIn0S6XOfIj0Y6YOeIg0Z6[OdIf0[6]ObId0]6_O_Ic0`67fHJY7Z1bGhN]8n3O1O100O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1000000O1000000000000000000000000000000000bJPHl3P8RLSHm3m7QLUHo3k7PLZHl3f7TLaHe3_7ZLiH_3W7aLoHY3Q7fLRIX3n6hLSIW3m6iLSIW3m6hLTIX3l6hLUIW3k6iLUIW3k6iLUIW3k6iLVIV3j6iLWIW3i6iLWIW3i6iLWIW3i6iLWIW3i6iLWIW3i6iLXIV3h6jLXIV3h6jLXIV3h6jLXIV3h6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLYIW3g6iLXIX3h6hLXIX3h6hLXIX3h6hLXIX3h6hLXIX3h6iLWIW3i6iLWIW3i6iLVIX3j6hLVIX3j6hLVIX3j6hLVIX3j6hLUIY3k6gLUIY3k6hLTIX3l6hLSIY3m6gLSIY3m6gLRIZ3n6gLPIZ3P7fLmH]3S7cLdHf3\\7[LZHn3f7SLUHQ4k7QLRHP4n7RLoGo3Q8`1000000000000000000000000000000000000000000000000000]KoGW2Q8hMdHd1\\7[NoH[1Q7dN`Il0`6TOQJ;o5DcJK]55SK[Om4d0ZKVOf4j0[KUOe4k0\\KTOd4k0^KTOb4l0`KRO`4n0cKoN]4Q1cKoN]4P1eKoN[4Q1eKoN[4Q1eKoN[4Q1eKoN[4Q1eKoN[4Q1fKnNZ4R1fKnNZ4Q1gKoNY4Q1hKnNX4R1hKnNX4DkGl0n3_OW4BnGo0k3_OW4AoGP1k3^OV4AQHP1i3_OV4@RHQ1h3_OV4_OSHi0GVOP4b0V4]OUHj0HUOm3d0V4\\OVHj0IUOk3e0V4[OWHj0JUOi3f0X4XOVHl0JVOh3f0i44`GUOf3h0k41aGVOd3i0k41aGVOd3i0k40dK0\\40dK0\\40dK0\\4OeK1\\4NdK2\\4NdK2\\4NdK2\\4MeK3\\4LdK4\\4LeK3[4MeK3[4LeK5[4KdK6\\4JcK7^4HbK8^4HaK9_4G`K:`4F`K:`4EaK;_4E`K<`4D`K<`4D`K<`4D_K=b4B^K>b4BQKk0o4UObJZ1^5fNSJi1m5WNdIX2\\6hMVIf2j6YMRIl2n6TMmHQ3S7oLdHZ3\\7fLUHi3k7WLoGo3Q8QLoGo3Q8QLoGo3Q8QLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8RLPHn3P8SLoGm3Q8SLoGm3Q8SLoGm3Q8SLoGm3Q8SLoGm3Q8SLoGm3Q8SLoGm3P8TLPHl3P8TLPHl3P8TLPHl3P8TLPHl3P8TLPHl3P8TLoGm3Q8TLnGl3Q8ULoGk3Q8ULoGk3Q8ULoGk3Q8ULoGk3Q8ULoGk3P8VLoGk3Q8VLnGj3R8VLnGj3Q8WLoGi3Q8WLnGj3R8VLnGj3Q8WLoGi3^7eKTHc0<i3`7fKRHa0>i3`7gKQH`0>j3a7fKQH`0>j3a7gKPH??j3a7gKPH`0=j3c7gKnG`0?i3c7gKnG`0?i3c7hKmG`0>i3e7iL[HW3e7iL[HW3e7iLZHX3f7iLYHW3g7iLXHX3h7iLWHW3i7iLVHX3j7hLVHX3j7iLTHX3l7hLTHX3l7iLRHX3n7iLQHW3o7iLPHX3P8jLmGW3S8jLjGX3V8i100000000000000000000O100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001O00000000001O001O00001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+    }
+  },
+  "robot": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1fK[NX4g1fKZNZ4g1dKZN\\4g1aK[N_4f1lJSNQM8S8g1fJVNUM4T8h1dJWNnLI09^8h1cJVNoL:^8b1_JPO`5R1[JQOe5Q1XJPOh5R1TJPOk5S1RJnNn5T1oImNQ6V1kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+    }
+  },
+  "relationships": {
+    "behind": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      []
+    ],
+    "front": [
+      [],
+      [
+        0,
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "left": [
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ],
+      [],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "right": [
+      [
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      []
+    ]
+  }
+}
